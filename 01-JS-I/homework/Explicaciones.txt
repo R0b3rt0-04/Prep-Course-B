@@ -1,0 +1,15 @@
+
+ Variables: las variables podria decir que son
+
+ Strings: cadenas de caracteres concatenados
+
+ Booleans: resultado de logica cierto y falso
+
+ Undefined: está indefinido
+
+ Null: es el equivalente a nada, ni cero ni vacio solo nada
+
+ Operadores: ayudan a la resolucion de Operaciones matematicas basicas y de logica
+
+ `==` vs. `===` son los operadores de comparacion 'igual a' y 'estrictamente igual a' respectivamente
+ los cuales ayudan a comparar y los devuelven un resultado booleano
