@@ -13,6 +13,8 @@ function imprimirSumaNumeros() {
      suma = suma + i
     } 
     return suma
+
+
 }
 
 function encuentraPares(array){
@@ -20,13 +22,11 @@ function encuentraPares(array){
   // en el arreglo de enteros pasado como parámetro
   // Tu código:
   arraypar = []
-
-for (var i = 0; i <  (array.length + 1); i++){
+for (var i = 0; i < array.length; i++){
   if((array[i] % 2 ) == 0 ){
     arraypar.push(array[i])
   }
 }return arraypar
-
 }
 
 function elevaAlCuadrado(array){
@@ -37,7 +37,6 @@ function elevaAlCuadrado(array){
   for (var i = 0; i < array.length ; i++){
     array2.push(array[i]**2)
   }return array2
-
 }
 
 function sumaArray(array){
@@ -48,22 +47,20 @@ let suma = 0
 for(var i = 0; i < array.length; i++){
 suma = suma + array[i]
 }return suma
-
-
 }
 
 function numeroDigitos(num){
   // Devuelve el número de dígitos de un número dado
   // Tu código:
- 
-if((num / 1000) > 1){
+/* if((num / 1000) > 1){
   return 4
 }else if((num / 100) > 1){
   return 3
 }else if((num /10) > 1){
   return 2
-}
-
+} */
+let digitos = String(num)
+return digitos.length
 } 
   
   
