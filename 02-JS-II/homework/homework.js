@@ -7,7 +7,7 @@
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
-    let palabra = str
+    let palabra = str;
     return palabra; 
   }
   
@@ -47,7 +47,7 @@ function devolverString(str) {
     // De lo contrario, devuelve "false"
     // Tu código:
     let iguales = x === y;
-    return iguales
+    return iguales;
 
   }
   
@@ -56,9 +56,9 @@ function devolverString(str) {
     // De lo contrario, devuelve "false"
     // Tu código:
    
-    let long = (str1.length === str2.length)
+    let long = (str1.length === str2.length);
 
-    return long
+    return long;
   }
   
   function menosQueNoventa(num) {
@@ -97,9 +97,9 @@ function devolverString(str) {
     // De lo contrario, devuelve "false"
     // Tu código:
 
-    let par = (num % 2)
+    let par = (num % 2);
     
-    return (par === 0)
+    return (par === 0);
 
   }
   
@@ -108,9 +108,9 @@ function devolverString(str) {
     // De lo contrario, devuelve "false"
     // Tu código:
 
-    let par = (num % 2)
+    let par = (num % 2);
     
-    return (par !== 0)
+    return (par !== 0);
 
   }
   
@@ -119,7 +119,7 @@ function devolverString(str) {
     // ojo: No es raiz cuadrada!
     // Tu código:
 
-    let cuadrado = Math.pow(num, 2)
+    let cuadrado = Math.pow(num, 2);
 
     return cuadrado;
   }
@@ -128,7 +128,7 @@ function devolverString(str) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
 
-    let cubo = Math.pow(num, 3)
+    let cubo = Math.pow(num, 3);
 
     return cubo;
 
@@ -137,9 +137,9 @@ function devolverString(str) {
   function elevar(num, exponent) {
     // Devuelve el valor de "num" elevado al exponente dado en "exponent"
     // Tu código:
-let elevar = (Math.pow(num, exponent))
+let elevar = (Math.pow(num, exponent));
 
- return elevar
+ return elevar;
 
   }
   
@@ -147,7 +147,7 @@ let elevar = (Math.pow(num, exponent))
     // Redondea "num" al entero más próximo y devuélvelo
     // Tu código:
 
-    let red = Math.round(num)
+    let red = Math.round(num);
     
     return red;
   }
@@ -156,9 +156,9 @@ let elevar = (Math.pow(num, exponent))
     // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
     // Tu código:
 
-    let up = Math.ceil(num)
+    let up = Math.ceil(num);
 
-    return up
+    return up;
 
   }
   
@@ -167,9 +167,9 @@ let elevar = (Math.pow(num, exponent))
     //Pista: investigá qué hace el método Math.random()
     // Tu código:
 
-    let random = Math.random()
+    let random = Math.random();
 
-    return random
+    return random;
 
   }
   
@@ -185,7 +185,7 @@ let elevar = (Math.pow(num, exponent))
     }else if (numero > 0){
       return 'Es positivo';
     }else if (numero < 0){
-      return 'Es negativo'
+      return 'Es negativo';
     }
 
   }
@@ -195,9 +195,9 @@ let elevar = (Math.pow(num, exponent))
     // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
 
-    let st = (str + '!')
+    let st = (str + '!');
 
-    return st
+    return st;
 
   }
   
